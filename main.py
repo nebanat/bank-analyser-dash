@@ -8,6 +8,7 @@ import api
 from helpers import human_format
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 
 def header(name):
